@@ -1,0 +1,26 @@
+{
+  "name": "poe-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "npm install && electron-packager . --overwrite --arch=all --icon=favicon.ico"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nick-ng/poe-helper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nick-ng/poe-helper/issues"
+  },
+  "homepage": "https://github.com/nick-ng/poe-helper#readme",
+  "dependencies": {
+    "always-tail": "^0.2.0",
+    "electron": "^9.2.0",
+    "electron-packager": "^15.0.0"
+  }
+}
